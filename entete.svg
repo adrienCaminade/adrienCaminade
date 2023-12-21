@@ -1,0 +1,48 @@
+    <svg fill="none" viewBox="0 0 100% 400" width="100%" height="400" xmlns="http://www.w3.org/2000/svg">
+        <foreignObject width="100%" height="100%">
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+              .container {
+                display: flex;
+                align-items: center;
+                background-image: url("https://creativedev.fr/img/profil_img_all.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+
+                width: 100%;
+                height: 400px;
+                padding: 30px;
+                color: black;
+                border-radius: 20px;
+              }
+
+              .message{
+            padding: 10px;
+            border-radius: 20px;
+
+            border: 1px solid rgba(255, 255, 255, 0.30);
+
+            background: radial-gradient(342.29% 115.28% at 5.06% 12.61%, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+            
+            -webkit-backdrop-filter: blur(6px);
+            backdrop-filter: blur(6px);
+            
+            box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.25) inset, -10px -10px 50px 0px rgba(255, 255, 255, 0.80) inset;
+        
+        }
+
+        .message h1{
+        margin-bottom: 50px;
+        }
+
+            </style>
+             <div class="container">
+               <div class="message">
+                <h1>Adrien Caminade</h1>
+                <h2>Application and website developer, UI-UX designer, and creative coder.</h2>
+              </div>
+             </div>
+          </div>
+        </foreignObject>
+      </svg>
