@@ -77,7 +77,7 @@
 
 
             .cardImgSpecial2{
-                background-image: url("learning_img.png");
+                background-image: url("![learning_img](https://github.com/adrienCaminade/adrienCaminade/assets/152693171/bed5798c-6d68-4e12-a55b-72cf149ff39d)");
                 background-repeat: no-repeat;
                 background-size: cover;
             }
