@@ -5,7 +5,7 @@
               .container {
                 display: flex;
                 align-items: center;
-                background-image: url("https://creativedev.fr/img/profil_img_all.png");
+                background-image: url("./profil_img_all.png");
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
