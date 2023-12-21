@@ -77,7 +77,7 @@
 
 
             .cardImgSpecial2{
-                background-image: url("https://creativedev.fr/img/learning_img.png");
+                background-image: url("./learning_img.png");
                 background-repeat: no-repeat;
                 background-size: cover;
             }
