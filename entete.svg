@@ -5,7 +5,7 @@
               .container {
                 display: flex;
                 align-items: center;
-                background-image: url("./profil_img_all.png");
+                background-image: url("https://github.com/adrienCaminade/adrienCaminade/blob/0992b89bc2b626c0af55ace2230d440bacbbadef/profil_img_all.png");
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
