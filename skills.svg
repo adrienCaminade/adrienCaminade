@@ -1,0 +1,244 @@
+      <svg fill="none" viewBox="0 0 100% 400" width="100%" height="400" xmlns="http://www.w3.org/2000/svg">
+        <foreignObject width="100%" height="100%">
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+
+                .cardSpecial {
+                    animation: moveIt 1s ease-in-out; 
+                }
+                
+                @keyframes moveIt {
+                    0% {
+                        transform: scale(1);
+                    }
+                    50% {
+                        transform: scale(1.1);
+                    }
+                    100% {
+                        transform: scale(1);
+                    }
+                }
+
+
+                
+                /* Contrôlez les délais pour chaque carte spéciale */
+                .cardSpecial:nth-child(1) {
+                    animation-delay: 0s;
+                }
+                
+                .cardSpecial:nth-child(2) {
+                    animation-delay: 1s;
+                }
+                
+                .cardSpecial:nth-child(3) {
+                    animation-delay: 2s;
+                }
+                
+                .cardSpecial:nth-child(4) {
+                    animation-delay: 3s;
+                }
+                
+                
+
+
+                  .box{
+                display: flex;
+            justify-content: center;
+           }
+
+              .container4 {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                border-radius: 20px;
+
+                width: 100%;
+                height: 100%;
+                padding: 20px;
+                color: black;
+                overflow: visible;
+
+
+              }
+
+              .cardSpecial{
+                width: 174px;
+                height: 246px;
+                border-radius: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.30);
+                -webkit-backdrop-filter: blur(6px);
+                -webkit-background: radial-gradient(342.29% 115.28% at 5.06% 12.61%, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+                background: radial-gradient(342.29% 115.28% at 5.06% 12.61%, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+                backdrop-filter: blur(6px);
+
+            box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.25) inset, -10px -10px 50px 0px rgba(255, 255, 255, 0.80) inset;
+
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(3, 1fr);
+                padding: 10px;
+                text-align: center;
+            }
+
+
+            .cardImgSpecial2{
+            background:#D2C3D0;
+            animation: gradient 15s ease infinite;
+            }
+
+            .card_img{
+                width:100%;
+                height: 100%;
+                border-radius: 20px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .card1{
+                background-image: url("https://creativedev.fr/img/creativity_img.png");
+            }
+            .card2bis{
+                background-image: url("https://creativedev.fr/img/skill_img.png");
+            }
+            .card3{
+                background-image: url("https://creativedev.fr/img/learning_img.png");
+            }
+            .card4{
+                background-image: url("https://creativedev.fr/img/collaboration_img.png");
+            }
+
+            .title_card{
+                padding: 10px;
+                border-radius: 20px;
+                box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.25) inset, -10px -10px 50px 0px rgba(255, 255, 255, 0.80) inset;
+            }
+
+            .body_card{
+                padding: 10px;
+                height: 100%;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            -webkit-backdrop-filter: blur(200px) saturate(100%) brightness(100%);
+            backdrop-filter: blur(200px) saturate(100%) brightness(100%);
+            box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.25) inset, -10px -10px 50px 0px rgba(255, 255, 255, 0.80) inset;
+            }
+
+            .blob, .blob2{
+                width: 250px;
+                height: 250px;
+                filter: blur(75px);
+                position:absolute;
+            }
+
+            .blob{
+                background: #FFE7CB;
+                left:50px;
+                top:10px;
+            }
+
+            .blob2{
+                background: #E7B6F3;
+                right:50px;
+            }
+
+            .bubble{
+                width: 165px;
+                height: 165px;
+                background: linear-gradient(320deg, #E8B7F2 15.57%, rgba(255, 255, 255, 0.70) 96.07%);
+                position:absolute;
+                border-radius:100%;
+                top:10px;
+                right:100px;
+            }
+
+            .bubble2{
+                width: 165px;
+                height: 165px;
+                background: linear-gradient(320deg, #FCBCB9 15.57%, rgba(255, 255, 255, 0.70) 96.07%);
+                position:absolute;
+                border-radius:100%;
+                top:100px;
+                left:100px;
+            }
+
+            .Bigbubble{
+                width: 200px;
+                height: 200px;
+                background: linear-gradient(320deg, #E8B7F2 15.57%, rgba(255, 255, 255, 0.70) 96.07%);
+                position:absolute;
+                border-radius:100%;
+                top:10px;
+                right:700px;
+            }
+
+            .Bigb2ubble2{
+                width: 200px;
+                height: 200px;
+                background: linear-gradient(320deg, #FCBCB9 15.57%, rgba(255, 255, 255, 0.70) 96.07%);
+                position:absolute;
+                border-radius:100%;
+                top:10px;
+                left:300px;
+            }
+
+            .Bigb2ubble3{
+                width: 200px;
+                height: 200px;
+                background: linear-gradient(320deg, #FCBCB9 15.57%, rgba(255, 255, 255, 0.70) 96.07%);
+                position:absolute;
+                border-radius:100%;
+                top:90px;
+                right:350px;
+            }
+
+
+            </style>
+      
+            <div class="box">
+                                <div class="blob"></div>
+                    <div class="blob2"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble2"></div>
+                    <div class="Bigbubble"></div>
+                    <div class="Bigb2ubble2"></div>
+                     <div class="Bigb2ubble3"></div>
+                <div class="container4 cardImgSpecial2">
+
+
+                    <div class="cardSpecial">
+                      <h2 class="title_card">creativity</h2>
+                      <div class="body_card">
+                        <h4>UI/UX</h4>
+                      </div>
+                     </div>
+      
+                     <div class="cardSpecial">
+                      <h2 class="title_card">skills</h2>
+                      <div class="body_card">
+                      <h4>HTML, CSS, PHP, Javascript</h4>
+                      </div>
+                     </div>
+      
+                     <div class="cardSpecial">
+                      <h2 class="title_card">learning</h2>
+                      <div class="body_card">
+                        <h4>Symfony, Laravel, Vue JS</h4>
+                      </div>
+                      
+                     </div>
+      
+                     <div class="cardSpecial">
+                      <h2 class="title_card">collaboration</h2>
+                      <div class="body_card">
+                      <h4> Gitlab, Trello</h4>
+                      </div>
+                     </div>
+      
+                  </div>
+                </div>
+
+            </div>
+        </foreignObject>
+      </svg>
